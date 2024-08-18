@@ -1,0 +1,42 @@
+@media (min-width: 0px) and (max-width: 992px) {
+#top-bar{
+    display: none;
+}
+#navbar{
+    top: 0;
+}
+ul{
+    display: none;
+}
+#menu-icon {
+    display: block;
+}
+nav #right i{
+    font-size: 2.5vw;
+}
+#navbar-content{
+    background-color: whitesmoke;
+    top: 0;
+    height: 18vh;
+    position: absolute;
+}
+.sidebar{
+  transform: translateX(0rem);
+   
+}
+.sidebar-right{
+    transform: translateX(0rem);
+}
+  }
+  @media (min-width: 0px) and (max-width: 500px) {
+    nav #right i{
+        font-size: 3vw;
+    }.sidebar-right{
+        width: 15rem;
+    }
+    .sidebar{
+        width: 15rem;
+    }
+  }
+ 
+  
